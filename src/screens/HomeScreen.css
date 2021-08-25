@@ -1,0 +1,22 @@
+.init {
+  color: #ff4c29;
+  margin: 0px 0px 30px 4px;
+  font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+}
+.big-heading {
+  color: #eeeeee;
+  margin: 0px;
+  font-size: clamp(40px, 8vw, 80px);
+  margin: 0px 0px 30px 4px;
+}
+.big-heading-title {
+  color: #787a91;
+  margin: 0px 0px 30px 4px;
+  font-size: clamp(40px, 8vw, 80px);
+}
+.presentation-para {
+  margin: 0px 0px 30px 4px;
+  max-width: 540px;
+  color: #787a91;
+  line-height: 1.9;
+}

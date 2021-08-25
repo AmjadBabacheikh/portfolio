@@ -1,5 +1,21 @@
 html {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: content-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: content-box;
+}
+main {
+  min-height: 80vh;
+}
+
+body {
+  background-color: #082032;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: 1.1;
 }

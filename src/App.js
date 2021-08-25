@@ -1,10 +1,18 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import HomeScreen from "./screens/HomeScreen";
 import Header from "./components/Header";
+
 const App = () => {
   return (
-    <div>
+    <Router>
       <Header />
-      <h1>portfolio</h1>
-    </div>
+      <main>
+        <Container className="py-3">
+          <Route path="/" component={HomeScreen} exact />
+        </Container>
+      </main>
+    </Router>
   );
 };
 
