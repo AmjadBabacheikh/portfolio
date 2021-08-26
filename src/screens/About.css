@@ -1,0 +1,28 @@
+.about_me_paragraphe {
+  color: #787a91;
+  line-height: 1.9;
+}
+
+.about_me_title {
+  color: #eeeeee;
+}
+.skills {
+  color: #787a91;
+}
+
+.skills li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-family: var(--font-mono);
+  font-size: var(--fz-xs);
+  list-style: none;
+}
+
+.skills li::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: #ff4c29;
+  font-size: var(--fz-sm);
+}

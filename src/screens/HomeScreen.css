@@ -1,3 +1,6 @@
+.home {
+  min-height: 85vh;
+}
 .init {
   color: #ff4c29;
   margin: 0px 0px 30px 4px;

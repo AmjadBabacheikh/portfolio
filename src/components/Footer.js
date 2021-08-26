@@ -4,15 +4,10 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <Container>
+      <Container className="my-3">
         <Row>
           <Col className="text-center py-1 footer">
-            Made With <span> ❤️ </span> By BABACHEIKH AMJAD
-          </Col>
-        </Row>
-        <Row>
-          <Col className="text-center py-2 my-1 footer">
-            Copyright &copy; BooksShop
+            Designed & Built by BABACHEIKH AMJAD
           </Col>
         </Row>
       </Container>
