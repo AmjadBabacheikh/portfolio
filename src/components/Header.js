@@ -12,7 +12,7 @@ const Header = () => {
             <Nav.Link href="#features">Experience</Nav.Link>
             <Nav.Link href="#pricing">Work</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <Button variant="primary">Resume</Button>
+            <Button className="resume">Resume</Button>
           </Nav>
         </Container>
       </Navbar>

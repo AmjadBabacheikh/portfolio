@@ -6,17 +6,30 @@
 .big-heading {
   color: #eeeeee;
   margin: 0px;
-  font-size: clamp(40px, 8vw, 80px);
+  font-size: clamp(40px, 8vw, 70px);
   margin: 0px 0px 30px 4px;
 }
 .big-heading-title {
   color: #787a91;
   margin: 0px 0px 30px 4px;
-  font-size: clamp(40px, 8vw, 80px);
+  font-size: clamp(40px, 8vw, 70px);
 }
 .presentation-para {
   margin: 0px 0px 30px 4px;
   max-width: 540px;
   color: #787a91;
   line-height: 1.9;
+}
+.touch {
+  color: #787a91;
+  background-color: #082032;
+  outline-color: #787a91;
+  padding: 10px 20px;
+  margin: 10px 0px;
+}
+
+.touch:hover {
+  color: #787a91;
+  background-color: #082032;
+  outline-color: #787a91;
 }

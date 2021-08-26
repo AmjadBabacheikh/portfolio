@@ -12,4 +12,14 @@
 .navbar-light .navbar-nav .nav-link:active {
   color: #787a91;
   padding-left: 20px;
+  margin-right: 10px;
+}
+
+.resume {
+  color: #787a91;
+  background-color: #082032;
+}
+.resume:hover {
+  background-color: #787a91;
+  color: #082032;
 }
