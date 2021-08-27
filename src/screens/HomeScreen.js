@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
 import About from "./About";
+import Experience from "./Experience";
 import "./HomeScreen.css";
 
 const HomeScreen = () => {
@@ -20,6 +21,7 @@ const HomeScreen = () => {
         </Col>
       </Row>
       <About />
+      <Experience />
     </>
   );
 };

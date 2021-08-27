@@ -5,7 +5,7 @@ import pic from "../pic.jpeg";
 
 const About = () => {
   return (
-    <>
+    <div className="about_me_section">
       <h2 className="about_me_title py-3">About Me</h2>
       <Row>
         <Col md={6}>
@@ -46,7 +46,7 @@ const About = () => {
           <Image className="about_me_image" src={pic} rounded />
         </Col>
       </Row>
-    </>
+    </div>
   );
 };
 

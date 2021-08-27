@@ -1,3 +1,7 @@
+.about_me_section {
+  min-height: 85vh;
+  margin: 60px 0px;
+}
 .about_me_paragraphe {
   color: #787a91;
   line-height: 1.9;
