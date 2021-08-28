@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
 import "./About.css";
-import pic from "../pic.jpeg";
 
 const About = () => {
   return (
@@ -43,7 +42,7 @@ const About = () => {
           </Row>
         </Col>
         <Col md={4}>
-          <Image className="about_me_image" src={pic} rounded />
+          <Image className="about_me_image" src={"./assets/pic.jpeg"} rounded />
         </Col>
       </Row>
     </div>

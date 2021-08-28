@@ -2,6 +2,8 @@ import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
 import About from "./About";
 import Experience from "./Experience";
+import Projects from "./Projects";
+import Contact from "./Contact";
 import "./HomeScreen.css";
 
 const HomeScreen = () => {
@@ -22,6 +24,8 @@ const HomeScreen = () => {
       </Row>
       <About />
       <Experience />
+      <Projects />
+      <Contact />
     </>
   );
 };

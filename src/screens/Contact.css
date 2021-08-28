@@ -1,0 +1,15 @@
+.contact_section {
+  margin: 60px 0px;
+  text-align: center;
+}
+.contact_section_title {
+  color: #eeeeee;
+}
+.contact_section_paragraphe {
+  color: #787a91;
+}
+.contact_links {
+  color: #787a91;
+  padding: 0px 10px;
+  cursor: pointer;
+}
