@@ -1,6 +1,7 @@
 .project_image {
   width: 100%;
   height: 350px;
+  filter: brightness(93%);
 }
 
 .project_title {

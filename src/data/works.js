@@ -2,10 +2,11 @@ const works = [
   {
     id: 1,
     company: "Slokware",
+    title: "Full stack java developer",
     tasks: [
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+      "Write modern, performant, maintainable code.",
+      "Work with a variety of different languages, platforms, frameworks, and content management systems such as Spring Boot,Swagger,Angular,Typescript,Junit,Mockito,Docker.",
+      "Communication Between Microservices.",
     ],
     start: "Juillet 2021",
     end: "Present",
@@ -13,10 +14,11 @@ const works = [
   {
     id: 2,
     company: "Grafimage",
+    title: "Full stack developer",
     tasks: [
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+      "Implemented react js state management with Redux",
+      "Implemented reusable components",
+      "Admin area to manage customers,orders and invoices",
     ],
     start: "Mars 2021",
     end: "Juin 2021",
@@ -24,13 +26,14 @@ const works = [
   {
     id: 3,
     company: "Big4Com",
+    title: "React native developer",
     tasks: [
-      "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-      "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-      "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+      "Build mobile apps with React Native",
+      "Implement navigation using React Navigation",
+      "Communicate with REST APIs",
     ],
-    start: "Juillet 2021",
-    end: "Aout 2021",
+    start: "Juillet 2020",
+    end: "Aout 2020",
   },
 ];
 

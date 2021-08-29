@@ -4,9 +4,9 @@ import "./Project.css";
 
 const Project = ({ project }) => {
   return (
-    <div>
+    <div className="py-3 my-3">
       <Row>
-        <Col md={5}>
+        <Col md={6}>
           <Image
             className="project_image"
             src={"./assets/" + project.image}
@@ -24,9 +24,11 @@ const Project = ({ project }) => {
           <a href={project.github}>
             <i className="fab fa-github fa-lg links"></i>
           </a>
-          <a href={project.demo}>
-            <i className="fas fa-link fa-lg links"></i>
-          </a>
+          {project?.demo && (
+            <a href={project.demo}>
+              <i className="fas fa-link fa-lg links"></i>
+            </a>
+          )}
         </Col>
       </Row>
     </div>

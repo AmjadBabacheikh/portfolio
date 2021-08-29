@@ -6,7 +6,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import "./HomeScreen.css";
 
-const HomeScreen = () => {
+const HomeScreen = ({ history }) => {
   return (
     <>
       <Row>
@@ -16,10 +16,12 @@ const HomeScreen = () => {
           <h3 className="big-heading-title">I build things for the web.</h3>
           <p className="presentation-para">
             I'm a software engineer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, I'm focused
-            on building accessible, human-centered products at Upstatement.
+            designing) web and mobile applicatons. Currently, I'm focused on
+            building large applications based on microservices architecture.
           </p>
-          <Button className="touch">Get In Touch</Button>
+          <Button className="touch" onClick={() => history.push("/contact")}>
+            Get In Touch
+          </Button>
         </Col>
       </Row>
       <About />

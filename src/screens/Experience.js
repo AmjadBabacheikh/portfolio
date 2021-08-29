@@ -29,7 +29,7 @@ const Experience = () => {
           <ul>
             <div className="my-2">
               <h3>
-                Full stack java developer <span>@ {workObject.company}</span>
+                {workObject.title} <span>@ {workObject.company}</span>
               </h3>
               <h4>
                 {workObject.start} - {workObject.end}

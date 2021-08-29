@@ -1,22 +1,35 @@
 import React from "react";
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import { Navbar, Nav, Container, Button, Image } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import "./Header.css";
 const Header = () => {
   return (
-    <div>
-      <Navbar className="nav-color">
+    <header>
+      <Navbar className="nav-color" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">logo</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#features">Experience</Nav.Link>
-            <Nav.Link href="#pricing">Work</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <Button className="resume">Resume</Button>
-          </Nav>
+          <LinkContainer to="/">
+            <Image src={"./assets/logo.jpg"} className="logo" />
+          </LinkContainer>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="ml-auto">
+              <LinkContainer to="/about">
+                <Nav.Link>About</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/experience">
+                <Nav.Link>Experience</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/work">
+                <Nav.Link>Work</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to="/contact">
+                <Nav.Link>Contact</Nav.Link>
+              </LinkContainer>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    </header>
   );
 };
 
