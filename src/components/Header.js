@@ -8,7 +8,7 @@ const Header = () => {
       <Navbar className="nav-color" expand="lg">
         <Container>
           <LinkContainer to="/">
-            <Image src={"./assets/logo.jpg"} className="logo" />
+            <Image src={"../assets/logo.jpg"} className="logo" />
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

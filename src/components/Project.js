@@ -9,7 +9,7 @@ const Project = ({ project }) => {
         <Col md={6}>
           <Image
             className="project_image"
-            src={"./assets/" + project.image}
+            src={"../assets/" + project.image}
             rounded
           />
         </Col>

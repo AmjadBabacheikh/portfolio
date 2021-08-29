@@ -40,7 +40,11 @@ const About = () => {
           </Row>
         </Col>
         <Col md={4}>
-          <Image className="about_me_image" src={"./assets/pic.jpeg"} rounded />
+          <Image
+            className="about_me_image"
+            src={"../assets/pic.jpeg"}
+            rounded
+          />
         </Col>
       </Row>
     </div>
